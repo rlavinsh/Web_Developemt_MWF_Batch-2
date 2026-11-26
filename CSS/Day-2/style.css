@@ -1,0 +1,67 @@
+/* Universal Selector(*) */
+
+/* * {
+  color: blue;
+  margin: 0;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+} */
+
+/* Element Selector(TagName) */
+
+/* h1 {
+  background-color: orange;
+  color: beige;
+  font-style: italic;
+}
+
+p {
+  background-color: orange;
+  color: beige;
+  font-style: italic;
+} */
+
+/* class Selector(.) */
+
+/* .para1 {
+  background-color: orange !important;
+  font-size: 25px;
+}
+
+.para2 {
+  font-style: italic;
+  background-color: blue;
+} */
+
+/* Id Selector(#) */
+/* #paragraph1 {
+  background-color: orange;
+  font-size: 25px;
+} */
+
+/* Group Selector(comma seprated) */
+
+/* h1,
+h2,
+.para1,
+#paragraph1 {
+  background-color: orange;
+} */
+
+/* Attribute Selector(TagName[AttributeName]) */
+
+/* input[type="text"] {
+  border: 5px solid rebeccapurple;
+} */
+
+/* Descendent selector(tagName tagName) -> */
+
+/* .container p {
+  background-color: blueviolet;
+} */
+
+/* Child Selector(tagName > tagName) */
+
+.container > p {
+  background-color: brown;
+}
